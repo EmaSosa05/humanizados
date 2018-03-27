@@ -1,12 +1,67 @@
+//General
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
 
 // Hero
 .hero {
-    min-height: 540px;
+    min-height: 94vh;
     background: url('https://wallpaperscraft.com/image/table_paper_pens_writing_67592_1920x1080.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
+    .content {
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding: 2.5%;
+
+        h1 {
+            font-weight: 420;
+            font-size: 60px;
+            color: darken(cornflowerblue, 15%);
+        }
+        p {
+            font-weight: 300;
+            font-size: 40px;
+            color: cornflowerblue;
+        }
+
+        .cta-entrevistas {
+            background-color: cornflowerblue;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            -moz-transition: all .2s ease-in;
+            -o-transition: all .2s ease-in;
+            -webkit-transition: all .2s ease-in;
+            transition: all .2s ease-in;
+            cursor: pointer;
+
+            &:hover {
+                background-color: lighten(cornflowerblue, 15%);
+                color: mix(white, darken(cornflowerblue, 25%), 25%);
+            }
+        }
+    }
 }
 
 // Navbar
@@ -16,5 +71,15 @@
     .is-mega-menu-title {
       margin-bottom: 0;
       padding: .375rem 1rem;
+    }
+}
+
+// Entrevistas
+#entrevistas {
+    background: $bg;
+    
+    .columns {
+        padding: 1%;
+        text-align: center;
     }
 }
