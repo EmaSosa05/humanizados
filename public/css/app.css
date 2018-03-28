@@ -14576,12 +14576,27 @@ body {
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar-item.is-mega {
+  position: static;
+}
+
+.navbar-item.is-mega .is-mega-menu-title {
+  margin-bottom: 0;
+  padding: .375rem 1rem;
 }
 
 .hero {
-  min-height: 94vh;
-  background: url("https://wallpaperscraft.com/image/table_paper_pens_writing_67592_1920x1080.jpg") no-repeat center center scroll;
+  min-height: 666px;
+  background: url("/images/radio-wallpaper.jpg") no-repeat center center scroll;
   background-size: cover;
 }
 
@@ -14623,27 +14638,37 @@ body {
   color: #507dcd;
 }
 
-.navbar-item.is-mega {
-  position: static;
+.interviews {
+  background: url("/images/radio-wallpaper.jpg") no-repeat center center scroll;
+  background-size: cover;
 }
 
-.navbar-item.is-mega .is-mega-menu-title {
-  margin-bottom: 0;
-  padding: .375rem 1rem;
-}
-
-#interviews {
-  background: #f5f8fa;
-}
-
-#interviews .columns {
+.interviews .columns {
   padding: 1%;
   text-align: center;
+}
+
+iframe,
+object,
+embed {
+  max-width: 100%;
 }
 
 .footer {
   padding: 1%;
   background-color: #efefef;
   text-align: center;
+}
+
+.footer .copyright {
+  font-size: 13px;
+}
+
+.footer .blueberrygroup {
+  font-size: 11px;
+}
+
+.footer .blueberrygroup span {
+  color: #0041C2;
 }
 

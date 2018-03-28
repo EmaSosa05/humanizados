@@ -12,7 +12,6 @@
     <body>
 
         @include("inc.navbar")
-<<<<<<< HEAD
 
         @yield("content")
         
@@ -20,17 +19,6 @@
 
         @include("inc.footer")
 
-=======
-        <section class="hero">
-            <div class="content">
-                @yield("content")
-            </div>
-        </section>
-        <section id="entrevistas">
-            @yield("entrevistas")
-        </section>
-        <footer class="footer">Tu vieja</footer>
->>>>>>> c3a7e79f2514d3608c2e403209a0c23585b8658d
         <script src="{{ asset("js/app.js") }}"></script>
     </body>
 </html>

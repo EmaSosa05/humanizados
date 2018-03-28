@@ -5,13 +5,13 @@
     <div class="content">
         <h1>Bienvenidos al sitio de Humanizados</h1>
         <p>Entrevistas y diálogos íntimos con los personajes más reconocidos del ambiente.</p>
-        <a class="cta-entrevistas" href="#entrevistas">Entrevistas <i class="fa fa-camera"></i></a>
+        <a class="cta-entrevistas" href="#interviews">Entrevistas <i class="fa fa-camera"></i></a>
     </div>
 </section>
 @endsection
 
 @section('interviews')
-<section id="interviews">
+<section name="interviews" class="interviews">
     <div class="columns">
         <div class="column">
             <iframe width="400" height="300" src="https://www.youtube.com/embed/v1Q_Cr6M1Ms" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
