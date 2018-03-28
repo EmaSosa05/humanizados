@@ -50,12 +50,14 @@ html, body {
         h1 {
             font-weight: 420;
             font-size: 60px;
-            color: darken(cornflowerblue, 15%);
+            color: #FFBE64;
+            text-shadow: 1px 1px 1px #442F13;
         }
         p {
             font-weight: 300;
             font-size: 40px;
-            color: cornflowerblue;
+            color: lighten(#FFBE64, 25%);
+            text-shadow: 1px 1px 1px #442F13;
         }
 
         .cta-entrevistas {
@@ -82,8 +84,20 @@ html, body {
 }
 
 // Interviews
-.interviews {
-    background: url('/images/radio-wallpaper.jpg') no-repeat center center scroll;
+.feature-interview {
+    margin: 0;
+    padding: 1% 10%;
+    background: $bg;
+    text-align: center;
+    
+    p {
+        padding: 0% 8%;
+        text-align: left;
+    }
+}
+
+.interview-list {
+    background: url('/images/radio-effects-wallpaper.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;

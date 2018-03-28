@@ -1,4 +1,17 @@
 
+## Installing
+- type composer install
+- type composer update
+- copy .env.example to .env
+- type php artisan key:generateto generate secure key in .env file
+- if you use MySQL in .env file :
+- set DB_CONNECTION
+- set DB_DATABASE
+- set DB_USERNAME
+- set DB_PASSWORD
+- type php artisan migrate --seed to create and populate tables
+- edit .env for emails configuration
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:

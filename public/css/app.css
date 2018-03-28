@@ -14610,13 +14610,15 @@ body {
 .hero .content h1 {
   font-weight: 420;
   font-size: 60px;
-  color: #1f66e5;
+  color: #FFBE64;
+  text-shadow: 1px 1px 1px #442F13;
 }
 
 .hero .content p {
   font-weight: 300;
   font-size: 40px;
-  color: cornflowerblue;
+  color: #fff3e4;
+  text-shadow: 1px 1px 1px #442F13;
 }
 
 .hero .content .cta-entrevistas {
@@ -14638,12 +14640,24 @@ body {
   color: #507dcd;
 }
 
-.interviews {
-  background: url("/images/radio-wallpaper.jpg") no-repeat center center scroll;
+.feature-interview {
+  margin: 0;
+  padding: 1% 10%;
+  background: #f5f8fa;
+  text-align: center;
+}
+
+.feature-interview p {
+  padding: 0% 8%;
+  text-align: left;
+}
+
+.interview-list {
+  background: url("/images/radio-effects-wallpaper.jpg") no-repeat center center scroll;
   background-size: cover;
 }
 
-.interviews .columns {
+.interview-list .columns {
   padding: 1%;
   text-align: center;
 }

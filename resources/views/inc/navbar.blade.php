@@ -2,19 +2,7 @@
     <div class="navbar-brand">
         <a class="navbar-item" href="http://bulma.io">
             <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
-        </a>
-
-        <a class="navbar-item is-hidden-desktop" href="https://github.com/jgthms/bulma" target="_blank">
-            <span class="icon" style="color: #333;">
-                <i class="fa fa-github"></i>
-            </span>
-        </a>
-
-        <a class="navbar-item is-hidden-desktop" href="https://twitter.com/jgthms" target="_blank">
-            <span class="icon" style="color: #55acee;">
-                <i class="fa fa-twitter"></i>
-            </span>
-        </a>
+        </a>   
 
         <div class="navbar-burger burger" data-target="navMenubd-example">
             <span></span>
@@ -28,11 +16,11 @@
             <a class="navbar-item  is-active" href="/">
                 Home
             </a>
-            <a class="navbar-item" href="/about">
-                About
+            <a class="navbar-item" href="#interviews">
+                Entrevistas
             </a>
-            <a class="navbar-item" href="/services">
-                Services
+            <a class="navbar-item" href="#contact">
+                Contacto
             </a>
             <div class="navbar-item has-dropdown is-hoverable is-mega">
                 <div class="navbar-link">
