@@ -20,6 +20,7 @@
             @yield("entrevistas")
         </section>
 
+        @include("inc.footer")
         <script src="{{ asset("js/app.js") }}"></script>
     </body>
 </html>
