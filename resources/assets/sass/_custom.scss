@@ -1,3 +1,4 @@
+
 //General
 html, body {
     margin: 0;
@@ -40,6 +41,7 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
     
     .content {
         display: block;
@@ -50,7 +52,7 @@ html, body {
         h1 {
             font-weight: 420;
             font-size: 60px;
-            color: #FFBE64;
+            color: lighten(#FFBE64, 25%);
             text-shadow: 1px 1px 1px #442F13;
         }
         p {
@@ -61,7 +63,7 @@ html, body {
         }
 
         .cta-entrevistas {
-            background-color: cornflowerblue;
+            background-color: lighten(#442F13, 25%);
             border: none;
             color: white;
             padding: 15px 32px;
@@ -76,8 +78,7 @@ html, body {
             cursor: pointer;
 
             &:hover {
-                background-color: lighten(cornflowerblue, 15%);
-                color: mix(white, darken(cornflowerblue, 25%), 25%);
+                background-color: lighten(#442F13, 30%);
             }
         }
     }
@@ -102,10 +103,36 @@ html, body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
     
     .columns {
         padding: 1%;
         text-align: center;
+    }
+
+    .search-interviews {
+        padding-bottom: 3%;
+
+        button {
+            background-color: lighten(#442F13, 25%);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            -moz-transition: all .2s ease-in;
+            -o-transition: all .2s ease-in;
+            -webkit-transition: all .2s ease-in;
+            transition: all .2s ease-in;
+            cursor: pointer;
+    
+            &:hover {
+                background-color: lighten(#442F13, 30%);
+            }
+        }
     }
 }
 
@@ -127,7 +154,7 @@ iframe, object, embed {
         font-size: 11px;
 
         span {
-        color: #0041C2;
+            color: #0041C2;
         }
     }
 }

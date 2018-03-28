@@ -14598,6 +14598,7 @@ body {
   min-height: 666px;
   background: url("/images/radio-wallpaper.jpg") no-repeat center center scroll;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .hero .content {
@@ -14610,7 +14611,7 @@ body {
 .hero .content h1 {
   font-weight: 420;
   font-size: 60px;
-  color: #FFBE64;
+  color: #fff3e4;
   text-shadow: 1px 1px 1px #442F13;
 }
 
@@ -14622,7 +14623,7 @@ body {
 }
 
 .hero .content .cta-entrevistas {
-  background-color: cornflowerblue;
+  background-color: #a8742f;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -14636,8 +14637,7 @@ body {
 }
 
 .hero .content .cta-entrevistas:hover {
-  background-color: #a9c4f5;
-  color: #507dcd;
+  background-color: #bc8234;
 }
 
 .feature-interview {
@@ -14655,11 +14655,35 @@ body {
 .interview-list {
   background: url("/images/radio-effects-wallpaper.jpg") no-repeat center center scroll;
   background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
 }
 
 .interview-list .columns {
   padding: 1%;
   text-align: center;
+}
+
+.interview-list .search-interviews {
+  padding-bottom: 3%;
+}
+
+.interview-list .search-interviews button {
+  background-color: #a8742f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  cursor: pointer;
+}
+
+.interview-list .search-interviews button:hover {
+  background-color: #bc8234;
 }
 
 iframe,
@@ -14684,5 +14708,111 @@ embed {
 
 .footer .blueberrygroup span {
   color: #0041C2;
+}
+
+.contact-form {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 15px;
+  margin: 100px 0;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #a8742f;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #bc8234;
+  -webkit-transition: background 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
 }
 

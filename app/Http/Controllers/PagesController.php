@@ -13,8 +13,4 @@ class PagesController extends Controller
     public function About() {
         return view('pages.about');
     }
-
-    public function Services() {
-        return view('pages.services');
-    }
 }

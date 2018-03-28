@@ -17,6 +17,8 @@
         
         @yield("interviews")
 
+        @yield("contact")
+
         @include("inc.footer")
 
         <script src="{{ asset("js/app.js") }}"></script>

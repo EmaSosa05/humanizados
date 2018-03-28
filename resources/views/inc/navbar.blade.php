@@ -13,13 +13,13 @@
 
     <div id="navMenubd-example" class="navbar-menu">
         <div class="navbar-start">
-            <a class="navbar-item  is-active" href="/">
+            <a class="navbar-item  is-active" href="#home">
                 Home
             </a>
-            <a class="navbar-item" href="#interviews">
+            <a class="navbar-item" href="#entrevistas">
                 Entrevistas
             </a>
-            <a class="navbar-item" href="#contact">
+            <a class="navbar-item" href="#contacto">
                 Contacto
             </a>
             <div class="navbar-item has-dropdown is-hoverable is-mega">
