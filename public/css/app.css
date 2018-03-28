@@ -14576,6 +14576,7 @@ body {
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  position: relative;
 }
 
 .hero {
@@ -14641,11 +14642,7 @@ body {
 }
 
 .footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
+  padding: 1%;
   background-color: #efefef;
   text-align: center;
 }
