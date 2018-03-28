@@ -19,8 +19,7 @@
         <section id="entrevistas">
             @yield("entrevistas")
         </section>
-
-        @include("inc.footer")
+        <footer class="footer">Tu vieja</footer>
         <script src="{{ asset("js/app.js") }}"></script>
     </body>
 </html>
