@@ -10,17 +10,15 @@
         <link rel="stylesheet" href="{{ asset("css/app.css") }}">
     </head>
     <body>
+
         @include("inc.navbar")
-        <section class="hero">
-            <div class="content">
-                @yield("content")
-            </div>
-        </section>
-        <section id="entrevistas">
-            @yield("entrevistas")
-        </section>
+
+        @yield("content")
+        
+        @yield("interviews")
 
         @include("inc.footer")
+
         <script src="{{ asset("js/app.js") }}"></script>
     </body>
 </html>
