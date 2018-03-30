@@ -15,14 +15,17 @@ html, body {
     font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-    margin-top: 40px;
+    margin-top: 52px;
 }
 
 section {
-    padding-top:40px;
-    margin-top:-40px;
+    padding-top:52px;
+    margin-top:-52px;
 }
 
 // Navbar
