@@ -1,5 +1,5 @@
 
-export const navbar = document.addEventListener('DOMContentLoaded', function () {
+export const navbar = document.addEventListener('DOMContentLoaded', () => {
     // Get all "navbar-burger" elements
     var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
   

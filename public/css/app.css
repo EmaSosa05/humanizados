@@ -14578,11 +14578,29 @@ body {
   text-rendering: optimizeLegibility;
 }
 
+body {
+  margin-top: 40px;
+}
+
+section {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
+  z-index: 999;
+}
+
+.navbar .login {
+  background-color: #6666ff !important;
+}
+
+.navbar .login:hover {
+  background-color: #3333ff !important;
 }
 
 .navbar-item.is-mega {
@@ -14625,6 +14643,7 @@ body {
 .hero .content .cta-entrevistas {
   background-color: #a8742f;
   border: none;
+  border-radius: 5%;
   color: white;
   padding: 15px 32px;
   text-align: center;
@@ -14642,14 +14661,15 @@ body {
 
 .feature-interview {
   margin: 0;
-  padding: 1% 10%;
-  background: #f5f8fa;
+  padding: 0% 10%;
+  height: 412px;
+  background: #080808;
   text-align: center;
 }
 
-.feature-interview p {
-  padding: 0% 8%;
-  text-align: left;
+.feature-interview * {
+  margin: 0;
+  padding: 0;
 }
 
 .interview-list {
@@ -14657,6 +14677,8 @@ body {
   background-size: cover;
   background-attachment: fixed;
   text-align: center;
+  position: relative;
+  padding-bottom: 5%;
 }
 
 .interview-list .columns {
@@ -14665,14 +14687,20 @@ body {
 }
 
 .interview-list .search-interviews {
-  padding-bottom: 3%;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+  right: 25%;
 }
 
 .interview-list .search-interviews button {
-  background-color: #a8742f;
+  width: 100%;
+  background: #a8742f;
   border: none;
+  border-top-left-radius: 15px 10px;
+  border-top-right-radius: 15px 10px;
   color: white;
-  padding: 15px 32px;
+  padding: 5px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;

@@ -1,7 +1,7 @@
 <nav class="navbar">
     <div class="navbar-brand">
-        <a class="navbar-item" href="http://bulma.io">
-            <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28">
+        <a class="navbar-item">
+            <img src="/images/logo-1.png" alt="Logo Humanizados">
         </a>   
 
         <div class="navbar-burger burger" data-target="navMenubd-example">
@@ -156,22 +156,10 @@
                         <a class="button">Register</a>
                     </p>
                     <p class="control">
-                        <a class="button is-primary">Login</a>
+                        <a class="button is-primary login">Login</a>
                     </p>
                 </div>
             </div>
         </div>
     </div>
 </nav>
-      {{--  <section class="hero is-primary">
-        <div class="hero-body">
-          <div class="container">
-            <h1 class="title">
-              Bulma.io  with Full Width Menu (Mega Menu)
-            </h1>
-            <h2 class="subtitle">
-              Hover over Blog
-            </h2>
-          </div>
-        </div>
-      </section>  --}}
